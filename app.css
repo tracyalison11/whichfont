@@ -1,0 +1,42 @@
+body {
+  background-color: #D6C8FF;
+}
+
+h1 {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'fairytales';
+  src: url("fonts/Fairy_Tales.otf") format("otf"),
+  url("fonts/Fairy_Tales.ttf") format("truetype"),
+  url("fonts/Fairy_Tales.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'stump-closed';
+  src: url("fonts/Stump closed.otf") format("otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Amelia-script';
+  src: url("fonts/Amelia-Script.woff") format("woff"),
+  url("fonts/Amelia-Script.otf") format("otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'brixton-lt';
+  src: url("fonts/brixton-lt.woff") format("woff"),
+  url("fonts/brixton-lt.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'grounday';
+  src: url("fonts/Grounday.otf") format("otf"),
+  url("fonts/Grounday.ttf") format("ttf");
+  font-weight: normal;
+}
