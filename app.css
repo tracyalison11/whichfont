@@ -1,14 +1,20 @@
 body {
-  background-color: #D6C8FF;
-  font-size: 24px;
+  background-color: #A1E3D8;
 }
 
 h1 {
-  text-align: center;
+  display: inline-block;
+  font-size: 48px;
+}
+
+.radio {
+  font-size: 24px;
 }
 
 textarea {
+  margin-top: 15px;
   height: 200px;
+  width: 400px;
 }
 
 @font-face {
@@ -48,29 +54,33 @@ textarea {
   font-weight: normal;
 }
 
-#fairytales {
- font-family: 'fairytales', sans-serif;
-}
-
-#stump-closed {
-  font-family: 'stump-closed', sans-serif;
-}
-
-#amelia {
-  font-family: 'Amelia-script', sans-serif;
-}
-
-#brixton-lt{
-  font-family: 'brixton-lt', sans-serif;
-}
-
-#grounday {
-  font-family: 'grounday', sans-serif;
-}
-
 .child {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.header {
+  text-align: center;
+}
+
+.fairytales {
+ font-family: 'fairytales', sans-serif;
+}
+
+.stump-closed {
+  font-family: 'stump-closed', sans-serif;
+}
+
+.amelia {
+  font-family: 'Amelia-script', sans-serif;
+}
+
+.brixton-lt{
+  font-family: 'brixton-lt', sans-serif;
+}
+
+.grounday {
+  font-family: 'grounday', sans-serif;
 }
