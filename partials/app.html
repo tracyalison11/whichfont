@@ -1,0 +1,42 @@
+<div class="row" ng-controller="fontController as fontController">
+    <div class="child">
+        <h1>Find Me a Font</h1>
+        <div class="col-xs-6">
+            <form role="form">
+                <div class="radio">
+                    <label id="fairytales">
+                        <input type="radio" name="font" ng-model="formData.font" value="fairytales" ng-change="changeRadio()">
+                            Fairytales
+                    </label>
+                </div>
+                <div class="radio">
+                    <label id="stump-closed">
+                        <input type="radio" name="font" ng-model="formData.font" value="stump-closed" ng-change="changeRadio()">
+                            Stump-Closed
+                    </label>
+                </div>
+                <div class="radio">
+                    <label id="amelia">
+                        <input type="radio" name="font" ng-model="formData.font" value="amelia" ng-change="changeRadio()">
+                        Amelia
+                    </label>
+                </div>
+                <div class="radio">
+                    <label id="brixton-lt">
+                        <input type="radio" name="font" ng-model="formData.font" value="brixton-lt" ng-change="changeRadio()">
+                        Brixton-LT
+                    </label>
+                </div>
+                <div class="radio">
+                    <label id="grounday">
+                        <input type="radio" name="font" ng-model="formData.font" value="grounday" ng-change="changeRadio()">
+                        Grounday
+                    </label>
+                </div>
+            </form>
+        </div>
+        <div class="col-xs-6">
+            <textarea>{{formData.font}}</textarea>
+        </div>
+    </div>
+</div>

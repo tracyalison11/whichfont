@@ -1,9 +1,14 @@
 body {
   background-color: #D6C8FF;
+  font-size: 24px;
 }
 
 h1 {
   text-align: center;
+}
+
+textarea {
+  height: 200px;
 }
 
 @font-face {
@@ -16,7 +21,8 @@ h1 {
 
 @font-face {
   font-family: 'stump-closed';
-  src: url("fonts/Stump closed.otf") format("otf");
+  src: url("fonts/Stump closed.otf") format("otf"),
+  url("fonts/Stump closed.woff") format("woff");
   font-weight: normal;
 }
 
@@ -37,6 +43,34 @@ h1 {
 @font-face {
   font-family: 'grounday';
   src: url("fonts/Grounday.otf") format("otf"),
-  url("fonts/Grounday.ttf") format("ttf");
+  url("fonts/Grounday.ttf") format("ttf"),
+  url("fonts/Grounday.woff") format("woff");
   font-weight: normal;
+}
+
+#fairytales {
+ font-family: 'fairytales', sans-serif;
+}
+
+#stump-closed {
+  font-family: 'stump-closed', sans-serif;
+}
+
+#amelia {
+  font-family: 'Amelia-script', sans-serif;
+}
+
+#brixton-lt{
+  font-family: 'brixton-lt', sans-serif;
+}
+
+#grounday {
+  font-family: 'grounday', sans-serif;
+}
+
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
